@@ -1,6 +1,6 @@
 ## Send apns command-line tool
 
-Send apple push notification message using Go-Apns
+Send apple push notification message using [Go-Apns](https://github.com/virushuo/Go-Apns)
 
 ### Usage
 
