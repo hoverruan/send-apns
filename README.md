@@ -17,8 +17,8 @@ Place your certificate files on current directory:
 * dev-cert.pem, dev-key.pem: Certificate files for sandbox environment
 * prod-cert.pem, prod-key.pem: Certificate files for production environment
 
-	# Example for generating production certificate files:
-	
+Example for generating production certificate files:
+
 	$ openssl x509 -in aps_production.cer -inform der -out prod-cert.pem
 	
 	$ openssl pkcs12 -nocerts -in Certificates.p12 -out prod-key-withpass.pem
